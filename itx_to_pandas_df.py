@@ -1,3 +1,4 @@
+#20190627
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -7,7 +8,7 @@ from tqdm import tqdm
 def itx_to_pandas(path):
 
     file = open(path,'r')
-    a = file.read().splitlines() 
+    a = file.read().splitlines()
     file.close()
 
     key = []
@@ -80,7 +81,7 @@ def resample_itx(df_all, current_array, page, voltage_wave, current_wave, start_
     df_tmp.at[df_tmp.loc[df_tmp.current>upper].index.tolist(), 'voltage'] = np.nan
 
     return df_tmp
-    
+
 def resamp_helper(df_target, df_source, name):
     df_tmp = pd.concat([df_target, df_source], sort=False)
     df_tmp = df_tmp.reset_index(drop = True)
