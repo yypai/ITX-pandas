@@ -39,3 +39,7 @@ folders = [file for file in os.listdir(base_path + device_name)]
 folders.sort()
 
 folders
+
+
+
+plt.savefig(sd + '_color_raw.png', dpi = 300,  transparent=True)
