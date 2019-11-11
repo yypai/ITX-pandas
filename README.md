@@ -12,3 +12,5 @@ This is a simple set of commands/boiler plates that I use for plotting data from
 - `all_its` reads all itx files inside of the specified directory to a dataframe. 
 - `resample_itx` resample the dataframe df(current, voltage) with respect to a specified array of currents 
 
+# plots 
+![Alt text](result.png?raw=true "Title")
