@@ -7,3 +7,8 @@ This is a simple set of commands/boiler plates that I use for plotting data from
 - `boilerplate_matplotlib.py`	boilerplate for just plotting in matplotlib. 
 - `itx_to_pandas_df.py` This is the file for the main functions. 
 
+# itx_to_pandas_df.py 
+- `itx_to_pandas` reads the itx file to pandas dataframe. 
+- `all_its` reads all itx files inside of the specified directory to a dataframe. 
+- `resample_itx` resample the dataframe df(current, voltage) with respect to a specified array of currents 
+
