@@ -14,3 +14,5 @@ This is a simple set of commands/boiler plates that I use for plotting data from
 
 # plots 
 ![Alt text](result.png?raw=true "Title")
+![Alt text](result2.png?raw=true "Title")
+
