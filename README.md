@@ -14,5 +14,7 @@ This is a simple set of commands/boiler plates that I use for plotting data from
 
 # example outputs 
 ![Alt text](result.png?raw=true "Title")
+
+# using transconductance.py
 ![Alt text](result2.png?raw=true "Title")
 
