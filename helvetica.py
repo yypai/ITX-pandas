@@ -1,6 +1,9 @@
 # not always this file name:
-# in shell: 
+# 
+# macOS: 
 # rm ~/.cache/.matplotlib/fontlist-v310.json
+#
+# Windows: 
 # .matplotlib>del fontlist-v330.json
 
 import matplotlib 
