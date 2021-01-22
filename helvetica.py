@@ -9,3 +9,7 @@
 import matplotlib 
 matplotlib.rcParams['font.family'] = 'sans-serif'
 matplotlib.rcParams['font.sans-serif'] = ['Helvetica']
+
+
+! dir ..\..\..\..\.matplotlib
+! del ..\..\..\..\.matplotlib\fontlist-v330.json
