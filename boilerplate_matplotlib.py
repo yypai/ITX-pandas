@@ -6,6 +6,16 @@ matplotlib.rcParams['font.family'] = 'sans-serif'
 matplotlib.rcParams['font.sans-serif'] = ['Helvetica']
 matplotlib.rcParams['pdf.fonttype'] = 42
 matplotlib.rcParams['ps.fonttype'] = 42
+
+
+matplotlib.rcParams['image.cmap']='coolwarm'
+
+matplotlib.rcParams.update({'font.size': 10})
+matplotlib.rcParams.update({'ytick.minor.visible': True,})
+matplotlib.rcParams.update({'xtick.minor.visible': True,})
+matplotlib.rcParams.update({'errorbar.capsize': 4})
+
+
 import os
 
 import random
